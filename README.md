@@ -1,2 +1,14 @@
-# FrontPeak
-Repositorio destinado al front del proyecto final del Bootcampo de PeakU
+# Trabook Frontend
+
+Frontend part of final workshop.
+
+### Technologies used:
+- `Vue.js 2`
+- `Bootstrap`
+
+##Developers
+- Juan José Herrera
+- Diego
+
+
+> ### [Backend here (Django)](#####)
