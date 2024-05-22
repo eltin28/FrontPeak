@@ -7,8 +7,10 @@ Frontend part of final workshop.
 - `Bootstrap`
 
 ##Developers
-- Juan José Herrera
-- Diego
+- Juan José Herrera Orozco
+  juanjoseherreraorozco2014@gmail.com
+- Diego Alejandro Fernández
+  diegoefe90@gmail.com
 
 
 > ### [Backend here (Django)](#####)
