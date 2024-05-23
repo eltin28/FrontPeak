@@ -8,7 +8,7 @@ Frontend part of final workshop.
 
 > ### [Backend here (Django)](https://github.com/eltin28/BackPeak)
 
-##Developers
+## Developers
 - Juan José Herrera Orozco
   juanjoseherreraorozco2014@gmail.com
 - Diego Alejandro Fernández
