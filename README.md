@@ -6,6 +6,13 @@ Frontend part of final workshop.
 - `Vue.js 2`
 - `Bootstrap`
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+> ### [Backend here (Django)](https://github.com/Adoration4None/trabook-backend)
+=======
+>>>>>>> 02645fe (editando parte frontal)
 ##Developers
 - Juan José Herrera Orozco
   juanjoseherreraorozco2014@gmail.com
@@ -14,3 +21,7 @@ Frontend part of final workshop.
 
 
 > ### [Backend here (Django)](#####)
+<<<<<<< HEAD
+=======
+>>>>>>> d6b1d574c05b1fdf6451545601a0b858b5881fc1
+>>>>>>> 02645fe (editando parte frontal)
