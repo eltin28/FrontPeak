@@ -1,48 +1,21 @@
 <template>
     <div>
-        <div class="flechas d-flex gap-2 pt-3 pb-4 justify-content-end d-lg-none">
+        <div class="flechas d-flex gap-2 pt-3 pb-4 justify-content-end d-none">
             <button class="btn slider-btn" type="button" data-bs-target="#plans-carousel-sm" data-bs-slide="prev">
                 <i class="bi bi-arrow-left"></i>
             </button>
-
             <button class="btn slider-btn" type="button" data-bs-target="#plans-carousel-sm" data-bs-slide="next">
                 <i class="bi bi-arrow-right"></i>
             </button>
         </div>
 
         <div class="container d-flex justify-content-center">
-            <div id="plans-carousel-sm" class="carousel slide d-lg-none">
+            <div id="plans-carousel-sm" class="carousel slide d-none">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="card-wrapper container-sm d-flex justify-content-around">
-                            
-                            <div class="card vacation-card mx-2" v-for="plan in plans.slice(8, 9)" :key="plan.id">
-                                <img :src="getDestinationFromPlan(plan.destination).image" class="card-img-top img-fluid rounded" :alt="getDestinationFromPlan(plan.destination).name"/>
-                                <div class="card-body">
-                                    <div class="d-flex flex-column flex-sm-row justify-content-between">
-                                        <h5 class="card-title">{{ getDestinationFromPlan(plan.destination).name }}</h5>
-                                        <h5 class="card-title plan-price">${{ plan.price }}</h5>
-                                    </div>
-                                    <div class="d-flex flex-column flex-sm-row justify-content-between">
-                                        <p class="card-text">
-                                            <img src="../assets/img/Navigation.svg" alt="Pointer"/>
-                                            {{ plan.trip_days }} days trip
-                                        </p>
-                                        <p class="px-2 text-body-secondary">
-                                            <img src="../assets/img/star_1.png" alt="Rank"/>
-                                            {{ getRating(plan.id) }}
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
 
-                    <div class="carousel-item">
-                        <div class="card-wrapper container-sm d-flex justify-content-around">
-                            
-                            <div class="card vacation-card mx-2" v-for="plan in plans.slice(9, 10)" :key="plan.id">
+                            <div class="card vacation-card mx-2" v-for="plan in plans.slice(8, 9)" :key="plan.id">
                                 <img :src="getDestinationFromPlan(plan.destination).image" class="card-img-top img-fluid rounded" :alt="getDestinationFromPlan(plan.destination).name"/>
                                 <div class="card-body">
                                     <div class="d-flex flex-column flex-sm-row justify-content-between">

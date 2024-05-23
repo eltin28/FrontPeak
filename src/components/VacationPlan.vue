@@ -48,27 +48,17 @@
                 </div>
             </div>
 
-<<<<<<< HEAD
-            <!-- Carrusel para pantallas pequeñas -->
-            <VacationPlanSmall/>
-=======
             <!-- Carrusel para pantallas grandes -->
-            <LargeCarousel/>
+            <!-- <LargeCarousel/> -->
             <!-- Carrusel para pantallas pequeñas -->
             <VacationPlanSmall/>
 
->>>>>>> 02645fe (editando parte frontal)
         </div>
     </section>
 </template>
 
 <script setup>
-<<<<<<< HEAD
-    import VacationPlanSmall from './VacationPlanSmall.vue';
-=======
-    import LargeCarousel from './LargeCarousel.vue';
 import VacationPlanSmall from './VacationPlanSmall.vue';
->>>>>>> 02645fe (editando parte frontal)
 </script>
 
 <script>
